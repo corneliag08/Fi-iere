@@ -1,0 +1,12 @@
+with open(r'C:\Users\User\Py\input.txt') as f:
+    x = f.readlines()
+import string
+print (x)
+n=0
+vocale=["a","e","i","o","u","A","E","I","O","U"]
+x=str(x)
+x=x.lower()
+for i in lines:
+    if i in vocale:
+        n+=1
+print("Numarul de vocale in fisier este = ",n)
