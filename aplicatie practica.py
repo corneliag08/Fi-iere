@@ -5,7 +5,7 @@ print('         Nume','Prenume','Nota','Grupa 1/2',sep='\t')
 for i,linie  in enumerate(l):
     print(i+1,':\t',linie,end='')
 z=media=0   
-for linie in x:
+for linie in l:
     campuri=linie.split()
     nota=int(campuri[2])
     z+=1
