@@ -1,8 +1,8 @@
 with open('C:\Users\User\Py\Lista_clasei.txt','r') as f:
-   x=list(f)
+   l=list(f)
    f.close()
 print('         Nume','Prenume','Nota','Grupa 1/2',sep='\t')
-for i,linie  in enumerate(x):
+for i,linie  in enumerate(l):
     print(i+1,':\t',linie,end='')
 z=media=0   
 for linie in x:
