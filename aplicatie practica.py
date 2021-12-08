@@ -12,4 +12,5 @@ for linie in x:
     media+=nota
 s1=s2=0
 print(nota,sep='\t')
-print('Media este',z,media/float(n))
+print('Media a ',z, "elevi este :",media/float(z))
+
